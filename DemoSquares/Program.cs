@@ -9,13 +9,12 @@ namespace DemoSquares
     {
         static void Main(string[] args)
         {
-            Square[] oneside = new Square[10];
+            Square[] SideA = new Square[10];
 
-
-            for (int i = 0; i < oneside.Length; i++)
+            for (int i = 0; i < SideA.Length; i++)
             {
-                oneside[i] = new Square(i + 10);
-                Console.WriteLine(oneside[i].Area);
+                SideA[i] = new Square(i + 10);
+                Console.WriteLine(SideA[i].Area);
             }
         }
     }

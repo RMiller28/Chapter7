@@ -5,7 +5,34 @@ using System.Text;
 
 namespace DemoSquares
 {
-    class DemoSquaresWork
+    class Square
     {
+         private double area;
+         private int side;
+         
+        public Square(int length)
+         {
+             side = length;
+             area = length * length;
+         }
+
+         public int Side
+         {
+             get
+             {
+                 return side;
+             }
+             
+         }
+
+        public double Area
+        {
+            get
+            {
+                return area;
+            }
+
+            
     }
-}
+}      
+       
