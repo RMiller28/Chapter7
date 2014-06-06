@@ -17,30 +17,33 @@ namespace HousePlant
             houseplants.Name = "Philodendron";
             houseplants.Fed = true;
             houseplants.Price = 29.99;
-            
+
             houseplantsA.Name = "Dandelion";
             houseplantsA.Fed = true;
             houseplantsA.Price = 10.99;
-            
+
             houseplantsB.Name = "Rose";
             houseplantsB.Fed = false;
             houseplantsB.Price = 22.99;
-            
+
             Console.WriteLine(houseplants.Name);
-            Console.WriteLine(houseplants.Price);
             Console.WriteLine(houseplants.Fed);
+            Console.WriteLine(houseplants.Price);
 
             Console.WriteLine(houseplantsA.Name);
-            Console.WriteLine(houseplantsA.Price);
             Console.WriteLine(houseplantsA.Fed);
+            Console.WriteLine(houseplantsA.Price);
 
             Console.WriteLine(houseplantsB.Name);
-            Console.WriteLine(houseplantsB.Price);
             Console.WriteLine(houseplantsB.Fed);
+            Console.WriteLine(houseplantsB.Price);
 
 
-          
-           
 
+
+
+
+
+        }
     }
 }

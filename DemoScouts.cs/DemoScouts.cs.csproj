@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{58FB99F2-FBAB-4577-A4BD-2B85050D26FA}</ProjectGuid>
+    <ProjectGuid>{7F1C7C73-0742-4348-BAB3-55C917F7C921}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DisplayHousePlants.cs</RootNamespace>
-    <AssemblyName>DisplayHousePlants.cs</AssemblyName>
+    <RootNamespace>DemoScouts.cs</RootNamespace>
+    <AssemblyName>DemoScouts.cs</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DisplayHousePlantsWork.cs" />
+    <Compile Include="DemoScoutsWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
