@@ -38,12 +38,12 @@ namespace HousePlant
             Console.WriteLine(houseplantsB.Fed);
             Console.WriteLine(houseplantsB.Price);
 
-
-
-
-
-
-
         }
     }
 }
+
+
+
+
+
+        
