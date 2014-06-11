@@ -10,9 +10,9 @@ namespace HousePlant
         static void Main(string[] args)
         {
             HousePlants houseplants, houseplantsA, houseplantsB;
-            houseplants = new houseplants();
-            houseplantsA = new houseplantsA();
-            houseplantsB = new houseplantsB();
+            houseplants = new HousePlants();
+            houseplantsA = new HousePlants();
+            houseplantsB = new HousePlants();
 
             houseplants.Name = "Philodendron";
             houseplants.Fed = true;
